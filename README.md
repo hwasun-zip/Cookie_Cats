@@ -1,4 +1,4 @@
-# CookieCats
+# Cookie_Cats
 
 **모바일 게임 A/B 테스트 검증과 리텐션 개선 실험 설계**
 
@@ -188,7 +188,7 @@ gate_30에서 빠진 789명이 **전부 D+7 이탈자**였다고 가정하고 �
 ## 파일 구성
 
 ```
-cookiecats-retention-crm/
+Cookie_Cats/
 ├── CookieCats.ipynb
 ├── retention_bootstrap.png
 ├── retention_by_engagement.png
