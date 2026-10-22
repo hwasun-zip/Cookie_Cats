@@ -1,4 +1,4 @@
-# cookiecats-retention-crm
+# CookieCats
 
 **모바일 게임 A/B 테스트 검증과 리텐션 개선 실험 설계**
 
