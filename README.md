@@ -76,7 +76,7 @@ A/B 결과를 해석하기 전에, 실험이 의도대로 배정되었는지 먼
 | 카이제곱 검정 | p = 0.0755 (유의하지 않음) | p = **0.0016** (유의함) |
 | 부트스트랩 10,000회 | | gate_30이 높을 확률 **99.9%**, 차이 0.82%p (95% 구간 0.32 ~ 1.32%p) |
 
-![부트스트랩 분포](images/retention_bootstrap.png)
+![부트스트랩 분포](retention_bootstrap.png)
 
 - 관문을 늦춰도 D+1에는 차이가 없었지만, **D+7 리텐션은 오히려 낮아졌습니다.**
 - "관문을 미루면 유저가 더 오래 남을 것"이라는 기대와 반대되는 결과입니다.
@@ -110,13 +110,13 @@ gate_30에서 빠진 789명이 **전부 D+7 이탈자**였다고 가정하고 �
 | 51 ~ 100판 | 11.6% | 80.4% | 35.6% |
 | 100판 이상 | 13.7% | 90.0% | 71.3% |
 
-![구간별 리텐션](images/retention_by_engagement.png)
+![구간별 리텐션](retention_by_engagement.png)
 
 - 5판 이하 유저(27.4%)의 D+7 리텐션은 **1.3%**, 6판 이상 유저(72.6%)는 **25.2%** 였습니다.
 - 유저의 **48.5%가 15판 이하**만 플레이했습니다.
 - 판수가 늘수록 리텐션이 구간마다 2 ~ 3.5배씩 꾸준히 올랐습니다. 특정 판수에서만 급등하는 임계점은 보이지 않았습니다.
 
-![생존 곡선](images/survival_curve.png)
+![생존 곡선](survival_curve.png)
 
 **해석할 때 주의한 점**
 
@@ -190,10 +190,9 @@ gate_30에서 빠진 789명이 **전부 D+7 이탈자**였다고 가정하고 �
 ```
 cookiecats-retention-crm/
 ├── CookieCats.ipynb
-├── images/
-│   ├── retention_bootstrap.png
-│   ├── retention_by_engagement.png
-│   └── survival_curve.png
+├── retention_bootstrap.png
+├── retention_by_engagement.png
+├── survival_curve.png
 └── README.md
 ```
 
